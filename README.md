@@ -12,11 +12,11 @@ Once this is installed, you can install the Jupyter notebooks and Instaseis with
 $ conda install -c conda-forge instaseis jupyter basemap-data-hires
 ```
 
-Please note that we currently have no Windows packages for `instaseis` so please just installing it it if you are running windows.
+Please note that we currently have no Windows packages for `instaseis` so please just install it as if you are running windows.
 
 Alternatively you can also use a bundled `conda` installer that comes with ObsPy and the Jupyter notebook: https://github.com/obspy/obspy/wiki/Installation-via-ObsPy-bundled-Anaconda-installer
 
-In that case only Instaseis has to be installed in addition to it:
+In that case Instaseis must also be installed:
 
 ```bash
 $ conda install -c conda-forge instaseis
@@ -24,13 +24,13 @@ $ conda install -c conda-forge instaseis
 
 ## Running the Notebooks
 
-Make sure the correct `conda` environment is active.
+Make sure the correct `conda` environment is active:
 
 ```bash
 $ source activate NAME_OF_ENV
 ```
 
-Then launch the notebooks from within the repository folder.
+Then launch the notebooks from within the repository folder:
 
 ```bash
 $ git clone https://github.com/krischer/cig_llnl_computational_seismology_workshop_obspy_instaseis.git
