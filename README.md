@@ -37,3 +37,6 @@ $ git clone https://github.com/krischer/cig_llnl_computational_seismology_worksh
 $ cd cig_llnl_computational_seismology_workshop_obspy_instaseis
 $ juypter notebook
 ```
+
+This should open your web browser and you can now navigate to open the notebook
+of your choice.
