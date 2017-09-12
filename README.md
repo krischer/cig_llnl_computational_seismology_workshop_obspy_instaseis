@@ -44,8 +44,9 @@ of your choice.
 ## Updating the Repository
 
 
-**WARNING:** This will delete any of your changes be first resetting the
-repository and then updating it.
+**WARNING:** This will delete any of your changes by first resetting the
+repository and then updating it. Do not do this if you still need any of it;
+otherwise make a backup first.
 
 ```bash
 $ git clean -fd  # Removes all files not tracked by git.
