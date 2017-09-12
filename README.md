@@ -40,3 +40,15 @@ $ juypter notebook
 
 This should open your web browser and you can now navigate to open the notebook
 of your choice.
+
+## Updating the Repository
+
+
+**WARNING:** This will delete any of your changes be first resetting the
+repository and then updating it.
+
+```bash
+$ git clean -fd  # Removes all files not tracked by git.
+$ git reset --hard HEAD  # Reset the repository.
+$ git pull  # Updates it.
+```
